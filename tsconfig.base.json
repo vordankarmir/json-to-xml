@@ -11,5 +11,5 @@
     "allowSyntheticDefaultImports": true,
     "types": ["node", "jest"]
   },
-  "files": ["../src/index.ts"]
+  "files": ["./src/index.ts"]
 }

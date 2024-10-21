@@ -1,4 +1,4 @@
-export default function OBJtoXML(obj) {
+export default function OBJtoXML(obj: any) {
   var xml = "";
   for (var prop in obj) {
     xml += obj[prop] instanceof Array ? "" : "<" + prop + ">";

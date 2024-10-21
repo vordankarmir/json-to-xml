@@ -1,6 +1,6 @@
 {
-  "name": "@vordankarmir/-to-xml",
-  "version": "2.0.2",
+  "name": "@vordankarmir/json-to-xml",
+  "version": "1.0.0",
   "description": "JSON to XML parser",
   "types": "./lib/cjs/types/index.d.ts",
   "main": "./lib/cjs/index.js",

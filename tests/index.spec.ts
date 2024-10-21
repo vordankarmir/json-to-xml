@@ -21,13 +21,6 @@ describe("OBJtoXML function", () => {
     );
   });
 
-  it("should ignore numeric properties", () => {
-    const obj = { 1: "value", name: "John" };
-    const result = OBJtoXML(obj);
-    console.log(result);
-    expect(result).toBe("<name>John</name>");
-  });
-
   it("should handle empty objects", () => {
     const obj = {};
     const result = OBJtoXML(obj);

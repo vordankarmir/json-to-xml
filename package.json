@@ -1,0 +1,24 @@
+{
+  "name": "@vordankarmir/-to-xml",
+  "version": "1.0.0",
+  "description": "JSON to XML parser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vordankarmir/json-to-xml.git"
+  },
+  "author": "Henry Grigoryan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vordankarmir/json-to-xml/issues"
+  },
+  "homepage": "https://github.com/vordankarmir/json-to-xml#readme",
+  "keywords": [
+    "json",
+    "xml",
+    "json-to-xml"
+  ]
+}

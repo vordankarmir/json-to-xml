@@ -8,10 +8,8 @@ export default function OBJtoXML(obj) {
         xml += OBJtoXML(new Object(obj[prop][array]));
         xml += "</" + prop + ">";
       }
-    } else if (typeof obj[prop] === "object") {
+    } else if (typeof obj[prop] == "object") {
       xml += OBJtoXML(new Object(obj[prop]));
-    } else if (typeof prop === "number") {
-      continue;
     } else {
       xml += obj[prop];
     }
